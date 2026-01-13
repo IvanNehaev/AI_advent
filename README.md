@@ -10,3 +10,16 @@
 >Агент принимает запрос и корректно вызывает инструмент
 
 <img width="150" height="400" alt="Screenshot_1768244352" src="https://github.com/user-attachments/assets/244cfaa6-673a-4662-af4c-052cb3fbf977" />
+
+## Day 2
+**Задание**
+
+- Научиться задавать формат результата для возвращения
+- Задайте агенту формат возвращения в prompt
+- Приведите пример формата возврата
+
+**Результат**
+
+>Ответ от LLM можно распарсить
+
+<img width="150" height="400" alt="image" src="https://github.com/user-attachments/assets/8604763b-464b-4be8-ac9b-65da1cc20948" />
