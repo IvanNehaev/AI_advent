@@ -14,22 +14,14 @@
 
 1. Почему локальный подсчёт — проблема
 1.1 Tokenizer жёстко привязан к модели
-
-у каждой модели свой словарь и правила
-
-смена модели = смена tokenizer
-
-minor-версия модели → могут измениться токены
+- у каждой модели свой словарь и правила
+- смена модели = смена tokenizer
+- minor-версия модели → могут измениться токены
 
 1.2 Есть «скрытые» токены
-
 API может добавлять:
-
-system tokens
-
-role separators
-
-function / tool-call маркеры
-
-JSON framing
+- system tokens
+- role separators
+- function / tool-call маркеры
+- JSON framing
 
