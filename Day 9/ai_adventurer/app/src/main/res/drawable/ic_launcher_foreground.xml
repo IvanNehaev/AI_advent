@@ -1,0 +1,87 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Chat bubble background -->
+    <path
+        android:pathData="M35,35 L73,35 Q78,35 78,40 L78,60 Q78,65 73,65 L55,65 L48,72 L48,65 L35,65 Q30,65 30,60 L30,40 Q30,35 35,35 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95"/>
+    
+    <!-- Letter A -->
+    <path
+        android:pathData="M43,58 L45,52 L49,52 L51,58 M46,42 L48,42 L54,58 L51,58 L50,54.5 L44,54.5 L43,58 L40,58 Z"
+        android:fillColor="#667EEA"
+        android:strokeWidth="1.5"
+        android:strokeColor="#667EEA"/>
+    
+    <!-- Letter I -->
+    <path
+        android:pathData="M58,42 L61,42 L61,58 L58,58 Z"
+        android:fillColor="#764BA2"
+        android:strokeWidth="1.5"
+        android:strokeColor="#764BA2"/>
+    
+    <!-- Top left sparkle -->
+    <path
+        android:pathData="M25,25 L26,27 L25,29 L24,27 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8"/>
+    
+    <!-- Top right sparkle -->
+    <path
+        android:pathData="M83,22 L84.5,25 L83,28 L81.5,25 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8"/>
+    
+    <!-- Bottom right sparkle -->
+    <path
+        android:pathData="M80,78 L81,80 L80,82 L79,80 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.7"/>
+    
+    <!-- Neural network dots -->
+    <group>
+        <!-- Top dots -->
+        <path
+            android:pathData="M20,45 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6"/>
+        <path
+            android:pathData="M20,54 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6"/>
+        <path
+            android:pathData="M88,45 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6"/>
+        <path
+            android:pathData="M88,54 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0"
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6"/>
+        
+        <!-- Connection lines -->
+        <path
+            android:pathData="M21.5,45 L30,40"
+            android:strokeColor="#FFFFFF"
+            android:strokeAlpha="0.3"
+            android:strokeWidth="0.8"/>
+        <path
+            android:pathData="M21.5,54 L30,55"
+            android:strokeColor="#FFFFFF"
+            android:strokeAlpha="0.3"
+            android:strokeWidth="0.8"/>
+        <path
+            android:pathData="M86.5,45 L78,40"
+            android:strokeColor="#FFFFFF"
+            android:strokeAlpha="0.3"
+            android:strokeWidth="0.8"/>
+        <path
+            android:pathData="M86.5,54 L78,55"
+            android:strokeColor="#FFFFFF"
+            android:strokeAlpha="0.3"
+            android:strokeWidth="0.8"/>
+    </group>
+</vector>
